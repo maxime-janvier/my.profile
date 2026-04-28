@@ -1,0 +1,139 @@
+body{
+	background-color: #bde0fe;
+	color: rgba(30, 0, 0, 1);
+	font-family:  Helvetica;
+	text-align: center;
+	.profile-pic {
+		width: 200px;
+		border-radius: 50%;
+		display: block;
+		margin:0 auto;
+	}
+}
+
+h1{
+	    
+	color: royalblue;
+    font-family: Helvetica;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
+h2{
+	color: royalblue;
+	font-weight: 600;
+	font-size: 40px; 
+}
+
+h3{
+	color:midnightblue;
+    font-size: 20px; 
+    font-weight: 500;  
+    font-family: Aptos;
+
+}
+a {
+    color: #0077cc;
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Transition douce */
+}
+
+a:hover {
+    color: #023e8a;
+    text-decoration: underline; /* Ajouter un soulignement au survol */
+}
+
+.container {
+	width: 70%;
+	margin: 40px auto;
+}
+
+@media (max-width: -à0px) { 
+	.container{
+		width: 70%;
+	}
+}
+
+@media (max-width: 500px) { 
+	.container{
+		width: 50%%;
+	}
+}
+
+.first-section {
+    background: #caf0f8; 
+    padding: 50px;       
+    margin: 60px;         
+    box-shadow: 0px 10px 19px rgba(40, 40, 40, 0.8);  
+    border-radius: 10px;  
+}
+
+
+.second-section {
+	background: #caf0f8; 
+    padding: 50px;       
+    margin: 60px;         
+    box-shadow: 0px 10px 19px rgba(40, 40, 40, 0.8);  
+    border-radius: 10px;  
+}
+
+
+
+.third-section {
+	background: #caf0f8; 
+    padding: 50px;       
+    margin: 60px;         
+    box-shadow: 0px 10px 19px rgba(40, 40, 40, 0.8);  
+    border-radius: 10px;  
+}
+
+
+
+
+.fourth-section {
+	background: #caf0f8; 
+    padding: 50px;       
+    margin: 60px;         
+    box-shadow: 0px 10px 19px rgba(40, 40, 40, 0.8);  
+    border-radius: 10px;  
+}
+
+
+
+
+.last-section {
+	background: #caf0f8; 
+    padding: 50px;       
+    margin: 60px;         
+    box-shadow: 0px 10px 19px rgba(40, 40, 40, 0.8);  
+    border-radius: 10px;  
+    justify-content: center; 
+    align-items: center; 
+}
+
+.last-section ul {
+    list-style: none;
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    font-size: 35px;
+}
+
+
+.logo{
+	margin: 10px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+
+.introduction {
+	color: midnightblue;
+    font-size: 20px;
+    font-weight: 500;
+	font-family: aptos;
+}
+
+
