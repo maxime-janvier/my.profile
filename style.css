@@ -3,13 +3,13 @@ body{
 	color: rgba(30, 0, 0, 1);
 	font-family:  Helvetica;
 	text-align: center;
-	.profile-pic {
+}
+.profile-pic {
 		width: 200px;
 		border-radius: 50%;
 		display: block;
 		margin:0 auto;
 	}
-}
 
 h1{
 	    
